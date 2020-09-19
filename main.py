@@ -42,7 +42,9 @@ while (result_stat):
         print('\n')
     elif (inpt == 'Decript' or inpt == 'decript'):
         cde = input("Enter your code: ")
+        print("Your Message is: ")
         print(unique_id(cde),'\n')
+        #raise Exception(unique_id(cde))
     else:
         print('Invalid Input :( \n')
         qt = input("Do you want to continue: ")

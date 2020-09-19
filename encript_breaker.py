@@ -42,6 +42,5 @@ def unique_id(Unique_Id):
             string=''
             for i in actual_decimal:
                 string=string+chr(i)
-
-
+                
             return string

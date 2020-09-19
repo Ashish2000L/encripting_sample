@@ -61,6 +61,9 @@ def Message(text):
     encript = ''
     for i in hexadecimal:
         encript = encript + i + '-'
+
+    print("Your Encripted message is: ",encript)
+    
     file_gen.write(',')
     file_gen.write(encript)
     file_gen.write('\n')
